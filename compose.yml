@@ -3,7 +3,7 @@ services:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "10l"
+      VERSION: "https://files.enderman.ch/uploads/26100.2314.241105-1703.GE_RELEASE_SVC_PROD1_CLIENTWNC_RET_X64FRE_EN-US.ISO"
     devices:
       - /dev/kvm
       - /dev/net/tun
