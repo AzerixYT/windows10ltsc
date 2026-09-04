@@ -5,8 +5,8 @@ services:
     environment:
       VERSION: "10l"
       DISK_SIZE: "32G"
-      RAM_SIZE: "6G"
-      CPU_CORES: "2"
+      RAM_SIZE: "12G"
+      CPU_CORES: "4"
       VGA: "qxl"
     devices:
       - /dev/kvm
