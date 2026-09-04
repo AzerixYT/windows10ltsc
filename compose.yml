@@ -5,9 +5,9 @@ services:
     environment:
       VERSION: "10l"
       DISK_SIZE: "32G"
-      RAM_SIZE: "14G"
-      CPU_CORES: "4"
-      MANUAL: "Y"      
+      RAM_SIZE: "6G"
+      CPU_CORES: "2"
+      VGA: "qxl"
     devices:
       - /dev/kvm
       - /dev/net/tun
