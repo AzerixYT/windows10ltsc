@@ -8,7 +8,6 @@ services:
       RAM_SIZE: "12G"
       CPU_CORES: "4"
       VGA: "qxl"
-    devices:
     cap_add:
       - NET_ADMIN
     ports:
