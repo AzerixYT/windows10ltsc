@@ -9,8 +9,6 @@ services:
       CPU_CORES: "4"
       VGA: "qxl"
     devices:
-      - /dev/kvm
-      - /dev/net/tun
     cap_add:
       - NET_ADMIN
     ports:
